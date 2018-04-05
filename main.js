@@ -20,3 +20,12 @@ function toggle (elements, specifiedDisplay) {
     return window.getComputedStyle(element, null).getPropertyValue('display') === 'none';
   }
 }
+
+
+
+<button onclick="myFunction()">Try it</button>
+
+
+function myFunction() {
+    alert("I am an alert box!");
+}
