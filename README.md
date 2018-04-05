@@ -1,6 +1,6 @@
 # THP_jour4
 
-##La recherche se lance lorsque l'on clique sur le bouton "Rercherche Google".
+## La recherche se lance lorsque l'on clique sur le bouton "Rercherche Google".
 
 
 Pair programming avec :
