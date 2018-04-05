@@ -1,31 +1,28 @@
-function toggle (elements, specifiedDisplay) {
-  var element, index;
+/*window.onload=function(){setTimeout(showPopup,10000)};
+function showPopup()
+{
+  alert("Hey le site xxxvidsxxx est trop bien. Viens dessus stp please");
+} */
 
-  elements = elements.length ? elements : [elements];
-  for (index = 0; index < elements.length; index++) {
-    element = elements[index];
+/*let count=0;
 
-    if (isElementHidden(element)) {
-      element.style.display = '';
 
-      // If the element is still hidden after removing the inline display
-      if (isElementHidden(element)) {
-        element.style.display = specifiedDisplay || 'block';
-      }
-    } else {
-      element.style.display = 'none';
-    }
-  }
-  function isElementHidden (element) {
-    return window.getComputedStyle(element, null).getPropertyValue('display') === 'none';
-  }
-}
+if (count ===10s) {
+
+} */
 
 
 
-<button onclick="myFunction()">Try it</button>
+//document.location.href="http://www.mondomaine.com"
+// or :
 
 
-function myFunction() {
-    alert("I am an alert box!");
-}
+//let input = document.getElementsByClassName('formulaire');
+let input = document.getElementsByTagName('form');
+
+let google = 'https://www.google.fr/search?source=hp&ei=Wy3GWr35OtDQwALf7YHIAg&q=' + input;
+console.log(input);
+
+//
+
+//let gr = window.location.replace("http://www.un-site.com/une-page.htm");
