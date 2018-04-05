@@ -1,8 +1,4 @@
-window.onload=function(){setTimeout(showPopup,10000)};
-function showPopup()
-{
-  alert("Hey le site xxxvidsxxx est trop bien. Viens dessus stp please");
-}
+
 
 //let input = document.getElementsByClassName('formulaire');
 let input = document.getElementsByTagName('form');
@@ -13,3 +9,16 @@ console.log(input);
 //
 
 //let gr = window.location.replace("http://www.un-site.com/une-page.htm");
+function ShowDiv() {
+    document.getElementById("myDIV").style.display = "";
+    document.getElementById("BB").style.display='none';
+}
+
+window.onload = function() {
+  document.getElementById('btn').onclick = function()
+  {
+    window.location.href = "https://www.google.fr/#q="+document.getElementById("url").value
+  };
+}
+
+setTimeout(function(){ alert("Hey le site xxxvidsxxx est trop bien. Viens dessus stp please"); }, 10000);
