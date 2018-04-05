@@ -1,21 +1,8 @@
-/*window.onload=function(){setTimeout(showPopup,10000)};
+window.onload=function(){setTimeout(showPopup,10000)};
 function showPopup()
 {
   alert("Hey le site xxxvidsxxx est trop bien. Viens dessus stp please");
-} */
-
-/*let count=0;
-
-
-if (count ===10s) {
-
-} */
-
-
-
-//document.location.href="http://www.mondomaine.com"
-// or :
-
+}
 
 //let input = document.getElementsByClassName('formulaire');
 let input = document.getElementsByTagName('form');
